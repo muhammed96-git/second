@@ -11,7 +11,11 @@ void main() {
               end: Alignment.bottomRight),
         ),
         child: const Center(
-          child: Text("Hello"),
+          child: Text("Hello",
+              style: TextStyle(
+                  fontSize: 48,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold)),
         ),
       ),
     ),
